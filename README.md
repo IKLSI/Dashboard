@@ -1,4 +1,4 @@
-# Dashboard GitHub
+# Dashboard GitHub | En cours de réalisation
 
 Ce projet est un dashboard permettant de visualiser différentes données provenant de mon GitHub personnel.
 
