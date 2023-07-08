@@ -7,7 +7,7 @@ précédente, ainsi que des statistiques sur les langages de programmation, les 
 
 ## Prévisualisation
 
-![Dashboard GitHub](./src/assets/dashboard.png)
+![Dashboard GitHub](./src/assets/dashboard.PNG)
 
 ## Fonctionnalités
 
