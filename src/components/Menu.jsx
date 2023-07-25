@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { MdSpaceDashboard } from "react-icons/md";
 import { RiDashboard2Fill } from "react-icons/ri";
-import { FaAddressCard, FaTaxi } from "react-icons/fa";
-import { BsFillChatTextFill } from "react-icons/bs";
+import { FaAddressCard } from "react-icons/fa";
 import { FiLogOut } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
@@ -13,6 +12,7 @@ import { MdAssignment, MdLanguage } from "react-icons/md";
 export default function Menu({ currentLink, setCurrentLink }) {
 const [navbarState, setNavbarState] = useState(false);
 const html = document.querySelector("html");
+
 html.addEventListener("click", () => setNavbarState(false));
 
 useEffect(() => {
@@ -66,7 +66,7 @@ return (
 				className={currentLink === "1" ? "active" : "none"}
 				onClick={() => setCurrentLink("1")}
 			>
-				<a href="#">
+				<a>
 					<MdSpaceDashboard />
 					<span> Dashboard</span>
 				</a>
@@ -75,7 +75,7 @@ return (
 				className={currentLink === "2" ? "active" : "none"}
 				onClick={() => setCurrentLink("2")}
 			>
-				<a href="#">
+				<a>
 					<FaAddressCard />
 					<span> Profil</span>
 				</a>
@@ -84,7 +84,7 @@ return (
 				className={currentLink === "3" ? "active" : "none"}
 				onClick={() => setCurrentLink("3")}
 			>
-				<a href="#">
+				<a>
 					<MdAssignment />
 					<span> Projets</span>
 				</a>
@@ -93,25 +93,16 @@ return (
 				className={currentLink === "4" ? "active" : "none"}
 				onClick={() => setCurrentLink("4")}
 			>
-				<a href="#">
+				<a>
 					<MdLanguage />
 					<span> Langage</span>
-				</a>
-			</li>
-			<li
-				className={currentLink === "5" ? "active" : "none"}
-				onClick={() => setCurrentLink("5")}
-			>
-				<a href="#">
-					<BsFillChatTextFill />
-					<span> Avis</span>
 				</a>
 			</li>
 			</ul>
 		</div>
 		</div>
 		<div className="logout">
-		<a href="#">
+		<a>
 			<FiLogOut />
 			<span className="logout">Déconnexion</span>
 		</a>
@@ -124,7 +115,7 @@ return (
 			className={currentLink === "1" ? "active" : "none"}
 			onClick={() => setCurrentLink("1")}
 			>
-			<a href="#">
+			<a>
 				<MdSpaceDashboard />
 				<span> Dashboard</span>
 			</a>
@@ -133,7 +124,7 @@ return (
 			className={currentLink === "2" ? "active" : "none"}
 			onClick={() => setCurrentLink("2")}
 			>
-			<a href="#">
+			<a>
 				<RiDashboard2Fill />
 				<span> Profil</span>
 			</a>
@@ -142,7 +133,7 @@ return (
 			className={currentLink === "3" ? "active" : "none"}
 			onClick={() => setCurrentLink("3")}
 			>
-			<a href="#">
+			<a>
 				<FaAddressCard />
 				<span> Projets</span>
 			</a>
@@ -151,18 +142,9 @@ return (
 			className={currentLink === "4" ? "active" : "none"}
 			onClick={() => setCurrentLink("4")}
 			>
-			<a href="#">
+			<a>
 				
 				<span> Language</span>
-			</a>
-			</li>
-			<li
-			className={currentLink === "5" ? "active" : "none"}
-			onClick={() => setCurrentLink("5")}
-			>
-			<a href="#">
-				<BsFillChatTextFill />
-				<span> Avis</span>
 			</a>
 			</li>
 		</ul>
