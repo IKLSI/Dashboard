@@ -7,15 +7,14 @@ précédente, ainsi que des statistiques sur les langages de programmation, les 
 
 ## Prévisualisation
 
-![Dashboard GitHub](./src/assets/dashboard.PNG)
+![Dashboard GitHub](./public/Dashboard.png)
 
 ## Fonctionnalités
 
-- Page d'accueil regroupant les informations principales
+- Page d'accueil regroupant les informations principales avec système de filtres pour la recherche
 - Page profil regroupant quelques informations sur mon profil
 - Page projets présentant les différents dépôts que j'ai créés avec une courte description
-- Page langage présentant les différents langages de programmation que je suis en mesure d'utiliser
-- Page avis laissant la possibilité aux utilisateurs de laisser un avis sur le site
+- Page langage présentant les différents langages de programmation que je maîtrise
 
 ## Technologies utilisées
 
